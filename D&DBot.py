@@ -5,8 +5,7 @@ import pymongo
 from pymongo import MongoClient
 from discord.ext import commands
 
-cluster = MongoClient('mongodb+srv://hobbsdevon:ra1d3rs1@characters-zwdrh.mongodb.net'
-                      '/test?retryWrites=true&w=majority')
+cluster = MongoClient('your mongoDB login here')
 
 db = cluster["discord"]
 characters = db["characters"]
@@ -92,4 +91,4 @@ async def createChar(ctx, name, playerName, race, klass, level, background, alig
     await ctx.author.send(f'{name} has been created!')
 '''
 
-client.run('NzA0NDE3NDc5MTE5ODYzODg4.XqdXfA.5BcdkN_pCSosy0IKarb6iZjb-6s')
+client.run('your token here')
