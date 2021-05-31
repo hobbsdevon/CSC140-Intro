@@ -15,4 +15,4 @@ async def ping(ctx):
 async def celebrate(ctx, name):
     await ctx.send('Happy Birthday ' + name + '!')
 
-client.run('NzQxNzQwNTQ3OTExMTg4NTMy.Xy79tw.SsKiJuXsSWs7xPO8G_XvfDgJoeU')
+client.run('your token here')
